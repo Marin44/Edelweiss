@@ -1,0 +1,110 @@
+.dif_menu{
+  background: #FFF;
+  color: #444;
+  margin: 0 auto;
+  overflow-X: hidden;
+  overflow-Y: auto;
+  padding: 0;
+}
+header ul, li {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+header {
+  background: #FFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  height: 60px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: initial;
+  z-index: 9;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+  -moz-transform: matrix(1, 0, 0, 1, 0, 0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+header .box {
+  display: none;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 80px;
+  padding: 10px;
+}
+
+header .box > ul {
+  display: flex;
+}
+#overlay {
+  background: #000;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+  z-index: 99;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+html.active #overlay {
+  opacity: .65;
+  visibility: visible;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+menu {
+  background: white;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: -320px;
+  top: 0;
+  width: 320px;
+  z-index: 1;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+html.active menu {
+  right: 0;
+  z-index: 999;
+}
+
+#menu {
+  cursor: pointer;
+  display: block;
+  font-size: 30px;
+  height: 40px;
+  line-height: 40px;
+  margin: 10px 20px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 40px;
+}
+
+@media only screen and (min-width: 520px) {
+  header .container {
+    max-width: 640px
+  }
+  header .box {
+    display: block;
+  }
+  section > h1 {
+    font-size: 3em
+  }
+}

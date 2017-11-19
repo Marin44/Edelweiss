@@ -1,0 +1,241 @@
+
+
+.connection_user{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+
+}
+.connection_user h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 12%;
+  color: black;
+  text-transform: uppercase;
+}
+
+.header a{
+  text-decoration: none;
+  color: #010002;
+  background-color: white;
+  display: block;
+  height: 26px;
+  padding-top: 10px;
+  width: 100%;
+  text-align: start;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding-left: 31px;
+  font-weight: 700;
+}
+
+
+.connection_user h1{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20%;
+}
+.connection_user svg{
+  width: 23px;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 27px;
+  position: absolute;
+  top: 188px;
+  left: 8px;
+  right: 0;
+  display: block;
+  height: 28px;
+  line-height: 34px;
+  text-align: center;
+}
+
+
+.connection_user_flexbox_center{
+  display: flex;
+  justify-content: center;
+
+}
+
+.identifiant_connection_user{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.identifiant_connection_user input{
+  padding: 10px 10px 10px 15px;
+  margin-bottom: 1px;
+  font-size: 14px;
+  width: 229px;
+  color: black;
+  border: none;
+  margin-left: 2%;
+}
+.haut_connection input{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.bas_connection input{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+#boutton_connection_user{
+  display: flex;
+  justify-content: center;
+}
+
+#boutton_connection_user input{
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  padding: 9px 10px 9px 9px;
+  width: 230px;
+  margin-right: -12px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+}
+
+.rester_connecter_button{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 40px;
+}
+
+#rester_connecter_button input{
+  margin-top: 19px;
+  margin-right: 10px;
+
+}
+
+.mpd_oblier_connection{
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+  margin-left: 220px;
+}
+
+#meme_ligne_connection{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.inscription_login{
+  text-align: center;
+  margin-top: 7px;
+  color: black;
+}
+.inscription_login a{
+  color: black;
+}
+
+.mpd_oblier_connection a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+
+
+/*Modal*/
+
+.modal {
+  position: fixed;
+  top: 20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal-body {
+  position: relative;
+  padding: 7px;
+}
+.close {
+  color: white;
+  transform: scale(1.2)
+}
+.modal-body h4{
+  color: white;
+}
+.modal-content {
+  font-weight: bold;
+  background: linear-gradient(69deg, #122469, #5b65d1);
+  background-size: 400% 400%;
+}
+.form-control {
+  margin: 1em 0;
+}
+.form-control:hover, .form-control:focus {
+  box-shadow: none;  
+  border-color: #fff;
+}
+.username, .password {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 2px solid #eee;
+  padding-left: 0;
+  font-weight: normal;
+  background: transparent;  
+}
+.form-control::-webkit-input-placeholder {
+  color: #eee;  
+}
+.form-control:focus::-webkit-input-placeholder {
+  font-weight: bold;
+  color: #fff;
+}
+.login {
+  padding: 6px 20px;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  transition: all .5s;
+  margin-top: 1em;
+}
+.login:hover {
+  background: white;
+  color: white;
+}
+
+
+
+
+#copyright{
+  color: black;
+  text-align: end;
+  margin-top: 439px;
+  margin-right: 80px;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

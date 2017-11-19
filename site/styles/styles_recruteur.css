@@ -1,0 +1,7 @@
+.connection_header_2_recruteur {
+    display: flex;
+    justify-content: flex-end;
+}
+#se_connecter{
+    margin-top: 12px;
+}

@@ -1,0 +1,282 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:"arial",heletica,sans-serif;
+    font-size:12px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+    -webkit-animation: 8s linear 0s normal none infinite animate;
+    -moz-animation: 8s linear 0s normal none infinite animate;
+    -ms-animation: 8s linear 0s normal none infinite animate;
+    -o-animation: 8s linear 0s normal none infinite animate;
+    animation: 8s linear 0s normal none infinite animate;
+
+}
+
+@-webkit-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 500px 0;}
+}
+
+@-moz-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 500px 0;}
+}
+
+@-ms-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 500px 0;}
+}
+
+@-o-keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 500px 0;}
+}
+
+@keyframes animate {
+    from {background-position:0 0;}
+    to {background-position: 500px 0;}
+}
+
+.connection_user{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+
+}
+
+.header a{
+    text-decoration: none;
+    color: #010002;
+    background-color: white;
+    display: block;
+    height: 26px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: start;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-left: 31px;
+    font-weight: 700;
+}
+
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.connection_user h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20%;
+}
+.connection_user svg{
+    width: 23px;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 27px;
+    position: absolute;
+    top: 188px;
+    left: 8px;
+    right: 0;
+    display: block;
+    height: 28px;
+    line-height: 34px;
+    text-align: center;
+}
+
+
+.connection_user_flexbox_center{
+    display: flex;
+    justify-content: center;
+
+}
+
+.identifiant_connection_user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.identifiant_connection_user input{
+    padding:10px 10px 10px 15px;
+    margin-bottom:1px;
+    font-size: 14px;
+    width: 205px;
+    color: black;
+    border: none;
+    margin-left: 16%;
+}
+.haut_connection input{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.bas_connection input{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+#boutton_connection_user{
+    display: flex;
+    justify-content: center;
+}
+
+#boutton_connection_user input{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 9px 10px 9px 9px;
+    width: 230px;
+    margin-right: -12px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
+
+.rester_connecter_button{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 40px;
+}
+
+#rester_connecter_button input{
+    margin-top: 19px;
+    margin-right: 10px;
+
+}
+
+.mpd_oblier_connection{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    margin-left: 220px;
+}
+
+#meme_ligne_connection{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.inscription_login{
+    text-align: center;
+    margin-top: 7px;
+    color: white;
+}
+.inscription_login a{
+    color: white;
+}
+
+.mpd_oblier_connection a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#copyright{
+    color: white;
+    text-align: end;
+    margin-top: 439px;
+    margin-right: 80px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* S'inscrire
+ */
+.login-trigger {
+    font-weight: bold;
+    color: #fff;
+    background: black;
+    padding: 15px 30px;
+    border-radius: 2px;
+    position: absolute;
+    margin: 20px;
+}
+
+
+/*Modal*/
+h4 {
+    font-weight: bold;
+    color: #fff;
+}
+.modal {
+    position: fixed;
+    top: 16%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.close {
+    color: #fff;
+    transform: scale(1.2)
+}
+.modal-content {
+    font-weight: bold;
+    background: linear-gradient(to bottom right,#F87E7B,#B05574);
+}
+.form-control {
+    margin: 1em 0;
+}
+.form-control:hover, .form-control:focus {
+    box-shadow: none;
+    border-color: #fff;
+}
+.username, .password {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #eee;
+    padding-left: 0;
+    font-weight: normal;
+    background: transparent;
+}
+.form-control::-webkit-input-placeholder {
+    color: #eee;
+}
+.form-control:focus::-webkit-input-placeholder {
+    font-weight: bold;
+    color: #fff;
+}
+.login {
+    padding: 6px 20px;
+    border-radius: 20px;
+    background: none;
+    border: 2px solid #FAB87F;
+    color: #FAB87F;
+    font-weight: bold;
+    transition: all .5s;
+    margin-top: 1em;
+}
+.login:hover {
+    background: #FAB87F;
+    color: #fff;
+}

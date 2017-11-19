@@ -1,0 +1,48 @@
+var notebooks = angular.module('notebooks', []);
+
+notebooks.controller('NotebookListCtrl', function($scope) {
+    $scope.notebooks = [
+        {"Nom entreprise": "test",
+            "poste": "second",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "date": 2011},
+        {"Nom entreprise": "test",
+            "poste": "second",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "date": 2011},
+        {"Nom entreprise": "test",
+            "poste": "second",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "date": 2011},
+        {"Nom entreprise": "test",
+            "poste": "second",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "date": 2011},
+        {"Nom entreprise": "test",
+            "poste": "second",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "date": 2011},
+        {"Nom entreprise": "test",
+            "poste": "second",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "date": 2011},
+        {"Nom entreprise": "test",
+            "poste": "second",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "date": 2011},
+        {"Nom entreprise": "test",
+            "poste": "second",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "date": 2011},
+        {"Nom entreprise": "test",
+            "poste": "second",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "date": 2011},
+        {"Nom entreprise": "test",
+            "poste": "second",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "date": 2011},
+
+    ];
+    $scope.orderList = "name";
+});
