@@ -1,0 +1,404 @@
+/* @access: public
+@author: Marie Dadomo
+@copyright : Copyright
+@version : 1
+*/
+
+
+
+/************************************************************************************************************************/
+/*    *********************** *********************** index    *********************************** **********   */
+/****************************************************************************************** ************ ****/
+
+
+/*******************/
+/*      body      */
+/*******************/
+
+body{
+    margin: 0px;
+}
+
+
+/*******************/
+/*    header       */
+/*******************/
+
+/*    Partie      se connecter      s'inscrire      accès recruteur      */
+.nav_header{
+    font-family: 'Roboto', sans-serif;
+}
+.connection_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 18px;
+    margin-right: 28px;
+}
+.connection_header a{
+    margin-right: 18px;
+    text-decoration: none;
+}
+#connection_header_2{
+    margin-top: 13px;
+    font-size: 16px;
+}
+#connection_header_2 a{
+    margin-right: 20px;
+    color: #010002;
+    padding:13px 25px 13px 25px;
+    border-radius: 25px;
+
+}
+#connection_header_2 a:hover{
+    background-color: aliceblue;
+    color: black;
+    text-decoration: underline;
+}
+#publiez_anno{
+    text-align: center;
+    border-radius: 30px;
+    background-color: #479CE5;
+    padding:5px 25px 5px 25px;
+    color: white;
+}
+#publiez_anno:hover{
+    background-color: darkseagreen;
+}
+#publiez_anno span{
+    font-size: 12px;
+}
+
+/*   Partie ,offre d'emploi, deposer un cv , formation        */
+
+.navigation_site_header{
+    margin-top: 4px;
+    margin-left: 22px;
+}
+.navigation_site_header a{
+    text-decoration: none;
+    margin-left: 12px;
+    color: black;
+    padding: 13px 35px 9px 35px;
+}
+.navigation_site_header a:hover{
+    color: #479CE5;
+    border-bottom:solid 2px #479CE5;
+}
+
+hr{
+    width: 60%;
+    height: 8px;
+    background-color: red;
+    border: none;
+    margin-top: 10px;
+    z-index: 1000;
+    position: absolute;
+    margin-left: 40%;
+}
+
+
+/*********************************/
+/*    Recherche sur le site      */
+/*********************************/
+
+.recherche_index h2{
+    text-align: center;
+    margin-top: 13px;
+    padding-top: 141px;
+    color: white;
+}
+
+
+
+.tout_sur_meme_ligne{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mot_clef input {
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 1px solid #DADADA;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 266px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.localisation_recherche{
+    background-image: url("../img/svg/localisation.svg");
+}
+
+.recherche_index{
+    background: url('../img/bateau.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 462px;
+}
+
+
+
+
+
+
+/************************/
+/*    type de contrat   */
+
+
+
+
+
+
+
+
+/*  button recherche    */
+
+#boutton_recherche_index_center{
+    display: flex;
+    justify-content: center;
+}
+.boutton_recherche_index {
+    background-image: url("../img/svg/search (1).svg");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 49px;
+    background-position-x: 4px;
+    background-position-y: 4px;
+    border-radius: 29px;
+    margin-top: 11px;
+    margin-left: 8px;
+}
+
+/*************************************************/
+/*            consulter toute les offres          */
+/*************************************************/
+
+.consulter_toutes_offres{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.consulter_toutes_offres{
+    background-color: white;
+    padding:5px 25px 5px 25px;
+    color: black;
+    margin-top: -39px;
+    width: 100%;
+    height: 39px;
+    opacity: 0.6;
+}
+
+
+
+/*************************************************/
+/*              il nous font confiance           */
+/*************************************************/
+.entreprise_confiance h2{
+    text-align: center;
+    font-size: 13px;
+    color: #465270;
+}
+.owl-carousel .item img{
+    display: block;
+    width: 48%;
+}
+.carousel-wrap {
+    margin: 30px auto;
+    padding: 0 5%;
+    width: 80%;
+    position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+    position: relative;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+}
+
+/* end fix */
+.owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+}
+
+.owl-nav i {
+    font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+    left: -30px;
+}
+
+.owl-nav .owl-next {
+    right: -30px;
+}
+.carousel-wrap {
+    margin: 30px auto;
+    padding: 0 5%;
+    width: 100%;
+    position: relative;
+}
+
+
+
+/*********************************/
+/*     Offres d'emploi           */
+/*********************************/
+
+
+.dernieres_offres h2{
+    font-size: 12px;
+    text-align: center;
+    color: #465270;
+}
+
+
+.right {
+    float: right;
+    position: relative;
+    top: 6px;
+}
+
+.top {
+    margin-top: -30px;
+}
+
+#notebooks {
+    background: whitesmoke;
+    width: 650px;
+    border-radius: 2px;
+    max-height: 450px;
+    margin-bottom: 44px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#notebooks ul {
+    margin: 0 auto;
+    max-height: 390px;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 5px 0 5px;
+    border-left: none;
+    border-right: none;
+}
+
+#notebooks li {
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 17px 15px 17px 25px;
+    border: 1px solid #CCC;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+    width: 101%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#query {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 5px;
+    font-family: calibri light;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+#notebooks select {
+    width: 120px;
+    margin-left: 230px;
+    margin-top: -45px;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    padding: 7.5px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+#notebooks select:focus, #query:focus {
+    border: 1px solid #479CE5;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.1);
+    outline: none;
+}
+
+/*********************************/
+/*              footer           */
+/*********************************/
+
+footer{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 250px;
+    padding-left: 250px;
+    font-size: 14px;
+
+}
+.dif_liens_footer h3{
+    font-size: 14px;
+
+}
+.dif_liens_footer li{
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.block_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.block_footer ul{
+    list-style: none;
+    margin-left:0;
+    padding-left:0;
+}
+.block_footer a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #707070;
+}
+
+.reseaux_sociaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#reseaux_sauciaux_h3{
+    text-align: center;
+    font-size: 14px;
+
+}
+.reseaux_sociaux svg{
+    width: 22px;
+    margin-right:64px;
+}
+#copyright{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
